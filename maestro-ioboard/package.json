@@ -1,0 +1,31 @@
+{
+	"name": "pololu-maestro-ioboard",
+	"version": "1.0.1",
+	"description": "Pololu Maestro implementation of IOBoard",
+	"main": "lib/pololu-maestro-ioboard.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/achingbrain/node-pololu-maestro-ioboard.git"
+	},
+	"dependencies": {
+		"pololu-maestro": "~2.1",
+		"winston": "~0.7",
+		"ioboard": "~2.0"
+	},
+	"devDependencies": {
+		"nodeunit": "~0.8",
+		"jsmockito": "~1.0",
+		"jshamcrest": "~0.7",
+		"istanbul": "~0.1"
+	},
+	"keywords": [
+		"node",
+		"ioboard",
+		"servo",
+		"ssc",
+		"maestro"
+	],
+	"author": "Alex Potsides / Cloud",
+	"license": "BSD",
+	"readmeFilename": "README.md"
+}

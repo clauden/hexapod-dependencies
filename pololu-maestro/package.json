@@ -1,0 +1,69 @@
+{
+  "name": "pololu-maestro",
+  "version": "3.1.1",
+  "description": "Module to take control of Pololu Maestro servo controllers",
+  "main": "lib/pololumaestro.js",
+  "scripts": {
+    "test": "istanbul cover nodeunit test",
+    "docs": "groc",
+    "docs-publish": "groc --github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/omcaree/node-pololumaestro.git"
+  },
+  "dependencies": {
+    "serialport": "^1.2",
+    "winston": "^0.8",
+    "async": "^0.9"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9",
+    "jsmockito": "^1.0",
+    "jshamcrest": "^0.7",
+    "istanbul": "^0.3",
+    "groc": "^0.7",
+    "proxyquire": "^1.0"
+  },
+  "keywords": [
+    "node",
+    "pololu",
+    "servo",
+    "ssc",
+    "maestro"
+  ],
+  "author": {
+    "name": "Owen McAree"
+  },
+  "license": "BSD",
+  "gitHead": "1ad9061710463c4e6b8dc1f9e7eb1481051d6347",
+  "bugs": {
+    "url": "https://github.com/omcaree/node-pololumaestro/issues"
+  },
+  "homepage": "https://github.com/omcaree/node-pololumaestro",
+  "_id": "pololu-maestro@3.1.1",
+  "_shasum": "69fbff6dcff6c8fa7b18191cc6e72834958de38a",
+  "_from": "pololu-maestro@*",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "achingbrain",
+    "email": "alex@achingbrain.net"
+  },
+  "maintainers": [
+    {
+      "name": "omcaree",
+      "email": "o.mcaree@lboro.ac.uk"
+    },
+    {
+      "name": "achingbrain",
+      "email": "alex@achingbrain.net"
+    }
+  ],
+  "dist": {
+    "shasum": "69fbff6dcff6c8fa7b18191cc6e72834958de38a",
+    "tarball": "http://registry.npmjs.org/pololu-maestro/-/pololu-maestro-3.1.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/pololu-maestro/-/pololu-maestro-3.1.1.tgz",
+  "readme": "ERROR: No README data found!"
+}
